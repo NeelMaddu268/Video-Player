@@ -1,0 +1,107 @@
+<!DOCTYPE html> 
+<html> 
+    <head>
+        <title>My Video Player</title>
+        <style>
+            body{
+                background-color:turquoise;
+            }
+            video{
+                height:500px;
+                width:1380px;
+                border-color:turquoise;
+                text-align:center;
+                background-color:red;
+            }
+            h1{
+                color:green;
+            }
+            #now{
+                width:230px;
+                position:absolute;
+                top:150px;
+                left:20px;
+            }#after{
+                width:210px;
+                position:absolute;
+                top:140px;
+                right:30px;
+            }
+        </style>
+    </head>
+<body> 
+
+<video width="400" controls id="a">
+  <source src="DP.mp4" type="video/mp4">
+  Your browser does not support HTML video.
+</video>
+    <video width="400" controls id="b">
+  <source src="PR.mp4" type="video/mp4">
+  Your browser does not support HTML video.
+</video>
+    <video width="400" controls id="c">
+  <source src="PUBG.mp4" type="video/mp4">
+  Your browser does not support HTML video.
+</video> <video width="400" controls id="d">
+  <source src="whatever_it_takes.mp4" type="video/mp4">
+  Your browser does not support HTML video.
+</video> <video width="400" controls id="e">
+  <source src="venom.mp4" type="video/mp4">
+  Your browser does not support HTML video.
+</video> <video width="400" controls id="f">
+  <source src="together.mp4" type="video/mp4">
+  Your browser does not support HTML video.
+</video> <video width="400" controls id="g">
+  <source src="thor.mp4" type="video/mp4">
+  Your browser does not support HTML video.
+</video> <video width="400" controls id="h">
+  <source src="summer.mp4" type="video/mp4">
+  Your browser does not support HTML video.
+</video> <video width="400" controls id="i">
+  <source src="stars.mp4" type="video/mp4">
+  Your browser does not support HTML video.
+</video> <video width="400" controls id="j">
+  <source src="sonic.mp4" type="video/mp4">
+  Your browser does not support HTML video.
+</video> <video width="400" controls id="k">
+  <source src="shazam.mp4" type="video/mp4">
+  Your browser does not support HTML video.
+</video> <video width="400" controls id="l">
+  <source src="throne.mp4" type="video/mp4">
+  Your browser does not support HTML video.
+</video> <video width="400" controls id="m">
+  <source src="rooftop.mp4" type="video/mp4">
+  Your browser does not support HTML video.
+</video> <video width="400" controls id="n">
+  <source src="home.mp4" type="video/mp4">
+  Your browser does not support HTML video.
+</video> <video width="400" controls id="o">
+  <source src="hero.mp4" type="video/mp4">
+  Your browser does not support HTML video.
+</video> <video width="400" controls id="p">
+  <source src="Do_it_like_me.mp4" type="video/mp4">
+  Your browser does not support HTML video.
+</video> <video width="400" controls id="q">
+  <source src="universe.mp4" type="video/mp4">
+  Your browser does not support HTML video.
+</video> <video width="400" controls id="r">
+  <source src="captain_marvel.mp4" type="video/mp4">
+  Your browser does not support HTML video.
+</video> <video width="400" controls id="s">
+  <source src="Back_To_You.mp4" type="video/mp4">
+  Your browser does not support HTML video.
+</video> <video width="400" controls id="t">
+  <source src="alone.mp4" type="video/mp4">
+  Your browser does not support HTML video.
+</video> <video width="400" controls id="u">
+  <source src="happier.mp4" type="video/mp4">
+  Your browser does not support HTML video.
+</video>
+    <h1 class="now" id="now">Current Song: </h1>
+    <h1 class="after" id="after">Next Song: </h1>
+<button onclick="ga()">Set A Timer</button>
+    <p id='area'></p>
+    <button onclick="skip()">Next</button>
+</body> 
+    <script src="player.js"></script>
+</html>
